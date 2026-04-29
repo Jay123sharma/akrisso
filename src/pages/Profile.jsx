@@ -20,6 +20,7 @@ export default function Profile() {
 
         <img
           src={user.avatar_url}
+          alt={user.login}
           className="w-24 rounded-full mx-auto"
         />
 

@@ -77,6 +77,7 @@ export default function Search() {
 
           <img
             src={user.avatar_url}
+            alt={user.login}
             className="w-20 rounded-full mx-auto"
           />
 
